@@ -1,0 +1,3 @@
+#Fichier toto.txt
+
+Ceci est un nouveau fichier Text
