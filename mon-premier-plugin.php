@@ -60,6 +60,11 @@ function mon_plugin_vador_shortcode($atts, $content = "") {
     return '<' . $tag . '>' . $content . ', Je suis ton père !' . '';
 }
 
+//Fonction de rappel qui retourne la célèbre citation de maître Yoda
+function mon_plugin_yoda_shortcode() {
+    return "<blockquote>Que la force soit avec toi jeune padawan !</blockquote>";
+}
+
 //Enregistre les shortcodes du plugin
 function mon_plugin_register_shortcode() {
     add_shortcode( 'yoda', 'mon_plugin_yoda_shortcode' );
