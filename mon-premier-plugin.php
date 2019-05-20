@@ -44,16 +44,20 @@ add_filter( 'the_title', 'mon_plugin_the_title' );
  */
 
 function mon_plugin_vador_shortcode($atts, $content = "") {
-    //Si contenu vide
+    // Tag par défaut
+    $tag = 'blockquote';
+
+    // Si $tag valide on le récupère
+    if(isset($atts['tag']) AND in_array($atts['tag'], ['p','h1','h2','div'])) {
+        $tag = $atts['tag'];
+    }
+
+    // Si contenu vide
     if (empty( $content )) {
         $content = 'Luke';
     }
-    return "<blockquote>" . $content . ", Je suis ton père !</blockquote>";
-}
 
-//Fonction de rappel qui retourne la célèbre citation de maître Yoda
-function mon_plugin_yoda_shortcode() {
-    return "<blockquote>Que la force soit avec toi jeune padawan !</blockquote>";
+    return '<' . $tag . '>' . $content . ', Je suis ton père !' . '';
 }
 
 //Enregistre les shortcodes du plugin
