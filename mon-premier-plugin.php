@@ -65,24 +65,21 @@ function mon_plugin_yoda_shortcode() {
     return "<blockquote>Que la force soit avec toi jeune padawan !</blockquote>";
 }
 
-/**
- * @param $atts
- * @param string $content
- * @return string
- */
-function mon_plugin_iso_shortcode($atts, $content = "") {
 
 
-      src='https://esig-ju.ch/b73/svu/voyages/wp-content/plugins/esig-plugin/ico-plugin/img/wordpress.png';
+function mon_plugin_ic_shortcode($atts, $content = "") {
 
-    return "<blockquote>Que la force soit avec toi jeune padawan ! "src"</blockquote>";
+
+    //img = 'http://monsite.com/wp-content/plugins/ico-plugin/img/wordpress.png';
+
+    return "<blockquote>Test icone !</blockquote>";
 }
 
 //Enregistre les shortcodes du plugin
 function mon_plugin_register_shortcode() {
     add_shortcode( 'yoda', 'mon_plugin_yoda_shortcode' );
     add_shortcode( 'vador', 'mon_plugin_vador_shortcode' );
-    add_shortcode( 'iso', 'mon_plugin_iso_shortcode' );
+    add_shortcode( 'iso', 'mon_plugin_ico_shortcode' );
 }
 add_action( 'init', 'mon_plugin_register_shortcode' );
 
