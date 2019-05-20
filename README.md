@@ -1,1 +1,1 @@
-# Création d'un 1er plugin Wordpress
+# Création un plugin Wordpress
