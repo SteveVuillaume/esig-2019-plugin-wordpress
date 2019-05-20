@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../sv/apiesig/.idea/apiesig.iml" filepath="$PROJECT_DIR$/../sv/apiesig/.idea/apiesig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sv/B72/.idea/b72.iml" filepath="$PROJECT_DIR$/../sv/B72/.idea/b72.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/esig-2019-plugin-wordpress.iml" filepath="$PROJECT_DIR$/.idea/esig-2019-plugin-wordpress.iml" />
+    </modules>
+  </component>
+</project>
