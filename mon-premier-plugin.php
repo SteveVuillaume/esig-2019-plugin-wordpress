@@ -67,7 +67,7 @@ function mon_plugin_yoda_shortcode() {
 
 
 
-function mon_plugin_ic_shortcode($atts, $content = "") {
+function mon_plugin_ico_shortcode($atts, $content = "") {
 
 
     //img = 'http://monsite.com/wp-content/plugins/ico-plugin/img/wordpress.png';
@@ -79,7 +79,7 @@ function mon_plugin_ic_shortcode($atts, $content = "") {
 function mon_plugin_register_shortcode() {
     add_shortcode( 'yoda', 'mon_plugin_yoda_shortcode' );
     add_shortcode( 'vador', 'mon_plugin_vador_shortcode' );
-    add_shortcode( 'iso', 'mon_plugin_ico_shortcode' );
+    add_shortcode( 'ico', 'mon_plugin_ico_shortcode' );
 }
 add_action( 'init', 'mon_plugin_register_shortcode' );
 
