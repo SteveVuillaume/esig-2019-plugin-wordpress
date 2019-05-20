@@ -68,11 +68,14 @@ function mon_plugin_yoda_shortcode() {
 
 
 function mon_plugin_ico_shortcode($atts, $content = "") {
+    if (empty($content)){
+        $content = 'Pas image';
+    }
 
 
     //img = 'http://monsite.com/wp-content/plugins/ico-plugin/img/wordpress.png';
 
-    return "<blockquote>Test icone !</blockquote>";
+    return "<blockquote>Test icone ! '. $content</blockquote>";
 }
 
 //Enregistre les shortcodes du plugin
