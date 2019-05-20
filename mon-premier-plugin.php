@@ -65,12 +65,17 @@ function mon_plugin_yoda_shortcode() {
     return "<blockquote>Que la force soit avec toi jeune padawan !</blockquote>";
 }
 
+/**
+ * @param $atts
+ * @param string $content
+ * @return string
+ */
 function mon_plugin_iso_shortcode($atts, $content = "") {
 
 
-      src="https://esig-ju.ch/b73/svu/voyages/wp-content/plugins/ico-plugin/img/wordpress.png";
+      src='https://esig-ju.ch/b73/svu/voyages/wp-content/plugins/esig-plugin/ico-plugin/img/wordpress.png';
 
-    return src;
+    return "<blockquote>Que la force soit avec toi jeune padawan ! "src"</blockquote>";
 }
 
 //Enregistre les shortcodes du plugin
