@@ -69,13 +69,13 @@ function mon_plugin_yoda_shortcode() {
 
 function mon_plugin_ico_shortcode($atts, $content = "") {
     if (empty($atts)){
-        $atts = "style=\"background-color:black;padding:9px;border-radius:100px";
+        $atts = "background-color:black;padding:9px;border-radius:100px";
     }
     if (empty($content)){
         $lien = "Pas d'image";
     }
     else{
-        $lien = '<img '.$atts.' alt="wordpress" src="https://esig-ju.ch/b73/svu/voyages/wp-content/plugins/esig-plugin/ico-plugin/img/'.$content.'.png">';
+        $lien = '<img style='.$atts.' alt="wordpress" src="https://esig-ju.ch/b73/svu/voyages/wp-content/plugins/esig-plugin/ico-plugin/img/'.$content.'.png">';
     }
 
 
