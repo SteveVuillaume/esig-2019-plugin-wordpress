@@ -72,7 +72,7 @@ function mon_plugin_ico_shortcode($atts, $content = "") {
         $lien = "Pas d'image";
     }
     else{
-        $lien = '<img style="background-color:red;padding:20px;border-radius:20px" alt="wordpress" src="https://esig-ju.ch/b73/svu/voyages/wp-content/plugins/esig-plugin/ico-plugin/img/'.$content.'.png">';
+        $lien = '<img style="background-color:black;padding:9px;border-radius:100px" alt="wordpress" src="https://esig-ju.ch/b73/svu/voyages/wp-content/plugins/esig-plugin/ico-plugin/img/'.$content.'.png">';
     }
 
 
