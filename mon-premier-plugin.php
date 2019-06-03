@@ -78,7 +78,7 @@ function mon_plugin_ico_shortcode($atts, $content = "") {
 
     //img = 'https://esig-ju.ch/b73/svu/voyages/wp-content/plugins/ico-plugin/img/wordpress.png';
 
-    return "<p>Test icone ! $content</p>";
+    return "<p>Test d'icone ! $content</p>";
 }
 
 //Enregistre les shortcodes du plugin
