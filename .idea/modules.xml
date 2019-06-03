@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/../sv/apiesig/.idea/apiesig.iml" filepath="$PROJECT_DIR$/../sv/apiesig/.idea/apiesig.iml" />
       <module fileurl="file://$PROJECT_DIR$/../sv/B72/.idea/b72.iml" filepath="$PROJECT_DIR$/../sv/B72/.idea/b72.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/esig-2019-plugin-wordpress.iml" filepath="$PROJECT_DIR$/.idea/esig-2019-plugin-wordpress.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../gest-cli/wp-content/plugins/gest-cli/.idea/gest-cli.iml" filepath="$PROJECT_DIR$/../gest-cli/wp-content/plugins/gest-cli/.idea/gest-cli.iml" />
     </modules>
   </component>
 </project>

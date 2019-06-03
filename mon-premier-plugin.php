@@ -69,16 +69,16 @@ function mon_plugin_yoda_shortcode() {
 
 function mon_plugin_ico_shortcode($atts, $content = "") {
     if (empty($content)){
-        $content = "Pas d'image";
+        $lien = "Pas d'image";
     }
     else{
-        $content = '<img style="background-color:red;padding:20px;border-radius:20px" alt="wordpress" src="https://esig-ju.ch/b73/svu/voyages/wp-content/plugins/esig-plugin/ico-plugin/img/wordpress.png">';
+        $lien = '<img style="background-color:red;padding:20px;border-radius:20px" alt="wordpress" src="https://esig-ju.ch/b73/svu/voyages/wp-content/plugins/esig-plugin/ico-plugin/img/'.$content.'.png">';
     }
 
 
     //img = 'https://esig-ju.ch/b73/svu/voyages/wp-content/plugins/ico-plugin/img/wordpress.png';
 
-    return "<p>Test d'icone ! $content</p>";
+    return "<p>Test d'icone ! </br>$lien</p>";
 }
 
 //Enregistre les shortcodes du plugin
