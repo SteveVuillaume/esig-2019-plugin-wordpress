@@ -69,7 +69,7 @@ function mon_plugin_yoda_shortcode() {
 
 function mon_plugin_ico_shortcode($atts, $content = "") {
     if (empty($content)){
-        $content = 'Pas image';
+        $content = 'Pas d\'image';
     }
     else{
         $content = '<img style="background-color:red;padding:20px;border-radius:20px" alt="wordpress" src="https://esig-ju.ch/b73/svu/voyages/wp-content/plugins/esig-plugin/ico-plugin/img/wordpress.png">';
